@@ -25,13 +25,6 @@ module.exports = {
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: {
-      sepolia: ETHERSCAN_APIKEY
-    }
-  },
-  sourcify: {
-    // Disabled by default
-    // Doesn't need an API key
-    enabled: true
+    apiKey: ETHERSCAN_APIKEY
   }
 };
